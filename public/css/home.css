@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+footer{
+    min-height: 100px;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto{
+    width: 250px;
+    padding: 10px;
+    border-radius:  50px;
+    margin: 5px;
+}
+
+.chatName{
+    text-align: center;
+    padding: 10px;
+    width: 290px;
+    border-radius: 30px;
+    margin: 5px;
+}
+
+.enviar{
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    width: 290px;
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background-color: rgb(0, 247, 247);
+}
+
+.err{
+    text-align: center;
+    font-size: .9rem;
+    color: red;
+}
+
+main{
+    background-color: black;
+    width: 100%;
+    min-height: calc(100vh - 100px);
+    display: flex;
+}
+
+.divMensagens{
+    width: 50%;
+    min-height: calc(100vh - 158px);
+}
+
+.mensagens{
+    background-color: white;
+    width: 100%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mensagemLI{
+    max-height: 400px;
+    width: 90%;
+    padding: 5px 15px 5px 15px;
+    font-size: 1rem;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
+
+#digitando{
+    background-color: white;
+    text-align: center;
+    height: 5%;
+    width: 100%;
+}
+
+.direito{
+    color: white;
+    min-height: calc(100vh - 158px);
+    width: 25%;
+}
+
+.esquerdo{
+    color: white;
+    min-height: calc(100vh - 158px);
+    width: 25%;
+}
+
+.chat{
+    text-align: center;
+    margin: 10px;
+    width: 100px;
+}

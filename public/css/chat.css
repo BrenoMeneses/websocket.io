@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+footer{
+    min-height: 100px;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto{
+    width: 250px;
+    padding: 10px;
+    border-radius:  50px;
+    border: none;
+    margin: 5px;
+}
+
+.enviar{
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    width: 70px;
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.enviar:active{
+    background-color: rgb(0, 199, 199);
+}
+
+main{
+    background-color: black;
+    width: 100%;
+    min-height: calc(100vh - 100px);
+    display: flex;
+}
+
+.divMensagens{
+    width: 50%;
+    min-height: calc(100vh - 158px);
+}
+
+.mensagens{
+    background-color: white;
+    width: 100%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mensagemLI{
+    max-height: 400px;
+    width: 90%;
+    padding: 5px 15px 5px 15px;
+    font-size: 1rem;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
+
+.digitando{
+    font-size: .8rem;
+    background-color: white;
+    text-align: center;
+    height: 5%;
+    width: 100%;
+}
+
+.direito{
+    color: white;
+    min-height: calc(100vh - 158px);
+    width: 25%;
+}
+
+.esquerdo{
+    color: white;
+    min-height: calc(100vh - 158px);
+    width: 25%;
+}
+
+.conectado{
+    margin: 20px 0 20px 0;
+    font-size: 1rem;
+    text-align: center;
+    background-color: green;
+}
+
+.myMSG{
+    background-color: rgba(255, 127, 80, 0.281);
+    margin: 2px 0 2px 0;
+    text-align: end;
+}
+
+.otherMSG{
+    background-color: rgba(0, 0, 0, 0.068);
+    margin: 2px 0 2px 0;
+    text-align: start;
+}
+
+.firstMSG{
+    margin: 20px 0 2px 0;
+}

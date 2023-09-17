@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <link rel="stylesheet" href="css/chat.css">
+    <script src="js/chat.js" defer></script>
+</head>
+<body>
+    <main>
+        <div class="esquerdo">
+            <section>
+                <h2>usuarios conectados</h2>
+                <ul class="usuariosConectados" id="usuariosConectados">
+                    
+                </ul>
+            </section>
+        </div>
+        <div class="divMensagens">
+            <ul class="mensagens" id="mensagens">
+            
+            
+            </ul>
+            <p id="digitando" class="digitando">.</p>
+        </div>
+        <div class="direito"></div>
+    </main>
+    <footer>
+        <form action="" autocomplete="off">
+            <input type="text" id="texto" class="texto" placeholder="digite aqui..." autofocus>
+            <input type="submit" value=">" class="enviar" id="enviar">
+        </form>
+    </footer>
+</body>
+</html>
