@@ -14,7 +14,7 @@ app.use(express.static(path.join(__dirname, "public")))
 //rotas=====================================================================
 
 app.get('/cadastro', (req, res)=>{
-    res.sendFile('')
+    res.sendFile(__dirname + '/views/cadastro.html')
 })
 
 app.get('/chat', (req, res)=>{
@@ -65,5 +65,5 @@ io.on('connection', (socket) => {
 //rodando o servidor na porta 8081======================================================================================
 
 server.listen(8081, ()=>{
-    console.log("funcionou!!")
+    console.log("run in http://localhost:8081")
 })
